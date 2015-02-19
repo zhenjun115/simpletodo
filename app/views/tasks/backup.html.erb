@@ -1,0 +1,13 @@
+<% @tasks.each do |task|%>
+<li>
+	<input type="checkbox" data-action="mark" data-id="<%=task.uuid %>"/>
+	<span><%= task.title%></span>
+</li>
+<% end %>
+
+
+<li><a href="#" target="_self">1</a></li>
+<li><a href="#" target="_self">2</a></li>
+<li><a href="#" target="_self">3</a></li>
+<li><a href="#" target="_self">4</a></li>
+<li><a href="#" target="_self">5</a></li>

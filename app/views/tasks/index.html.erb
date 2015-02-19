@@ -1,0 +1,37 @@
+<div class="container">
+	<div class="row-style-1">
+		<input type="text" data-action="filte" class="input-style-1" placeholder="search keyword...">
+	</div>
+	<div class="row-style-1">
+		<input type="text" id="taskTitle" class="input-style-1">
+		<input type="button" data-action="new" class="input-style-2" value="new">
+	</div>
+	<div class="panel-style-1">
+		<div class="panel-body">
+			<ul class="list list-style-1" data-container="pageData">
+			</ul>
+		</div>
+		
+		<div class="panel-footer">
+			<ul class="list list-pagination" data-container="pageNumber">
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	"use strict";
+	$ ( document ).ready ( function ( ) {
+		var todo = new Todo ( {
+			/*pagination conf info*/
+			'page': 0,
+			'limit': 6,
+			'dataHtml': "[data-container='pageData']",
+			'pagesHtml': "[data-container='pageNumber']",
+			'nextSele': "[data-action='next']",
+			/**/
+			'newSele': "[data-action='new']",
+			'markSele': "[data-action='mark']",
+			'filteSele': "[data-action='filte']",
+		} );
+	} );
+</script>
