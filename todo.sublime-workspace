@@ -3,10 +3,30 @@
 	{
 		"selected_items":
 		[
+			[
+				"ta",
+				"task"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/assets/stylesheets/element.css",
+			"settings":
+			{
+				"buffer_size": 1619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 298,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -46,35 +66,58 @@
 	[
 		"/home/zhenjun/Projects/TodoList",
 		"/home/zhenjun/Projects/TodoList/app",
+		"/home/zhenjun/Projects/TodoList/app/assets",
+		"/home/zhenjun/Projects/TodoList/app/assets/javascripts",
+		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets",
 		"/home/zhenjun/Projects/TodoList/app/controllers",
+		"/home/zhenjun/Projects/TodoList/app/helpers",
+		"/home/zhenjun/Projects/TodoList/app/mailers",
+		"/home/zhenjun/Projects/TodoList/app/models",
 		"/home/zhenjun/Projects/TodoList/app/views",
 		"/home/zhenjun/Projects/TodoList/app/views/layouts",
-		"/home/zhenjun/Projects/TodoList/app/views/tasks"
+		"/home/zhenjun/Projects/TodoList/app/views/tasks",
+		"/home/zhenjun/Projects/TodoList/db",
+		"/home/zhenjun/Projects/TodoList/db/migrate"
 	],
 	"file_history":
 	[
-		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets/tasks.css",
-		"/home/zhenjun/Projects/TodoList/app/controllers/application_controller.rb",
-		"/home/zhenjun/Projects/TodoList/app/controllers/tasks_controller.rb",
-		"/home/zhenjun/Projects/TodoList/app/controllers/concerns/.keep",
 		"/home/zhenjun/Projects/TodoList/app/helpers/application_helper.rb",
+		"/home/zhenjun/Projects/TodoList/app/controllers/application_controller.rb",
 		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets/application.css",
-		"/home/zhenjun/Projects/TodoList/app/assets/javascripts/tasks.js",
 		"/home/zhenjun/Projects/TodoList/app/assets/javascripts/application.js",
-		"/home/zhenjun/Projects/TodoList/app/assets/images/.keep",
-		"/home/zhenjun/Projects/TodoList/todo.sublime-project",
-		"/home/zhenjun/Projects/TodoList/config.ru",
+		"/home/zhenjun/Projects/TodoList/config/application.rb",
+		"/home/zhenjun/Projects/TodoList/app/mailers/.keep",
+		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets/tasks.css",
+		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets/responsive.css",
+		"/home/zhenjun/Projects/TodoList/config/routes.rb",
+		"/home/zhenjun/Projects/TodoList/app/controllers/tasks_controller.rb",
 		"/home/zhenjun/Projects/TodoList/Rakefile",
+		"/home/zhenjun/Projects/TodoList/app/assets/stylesheets/element.css",
+		"/home/zhenjun/Projects/TodoList/app/views/tasks/index.html.erb",
+		"/home/zhenjun/Projects/TodoList/app/models/task.rb",
+		"/home/zhenjun/Projects/TodoList/app/assets/javascripts/tasks.js",
+		"/home/zhenjun/Projects/TodoList/Gemfile",
+		"/home/zhenjun/Projects/TodoList/todo.sublime-project",
+		"/home/zhenjun/Projects/TodoList/app/views/layouts/application.html.erb",
+		"/home/zhenjun/Projects/TodoList/db/schema.rb",
+		"/home/zhenjun/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/zhenjun/Projects/TodoList/app/models/tag.rb",
+		"/home/zhenjun/Projects/TodoList/db/migrate/20150219164734_change_task_id_from_tags.rb",
+		"/home/zhenjun/Projects/TodoList/db/migrate/20150207080659_create_tags.rb",
+		"/home/zhenjun/Projects/TodoList/db/migrate/20150219163748_remove_task_from_tags.rb",
+		"/home/zhenjun/Projects/TodoList/db/migrate/20150219163611_remove_task_from_tag.rb",
+		"/home/zhenjun/.config/sublime-text-3/Packages/User/TodoReview.sublime-settings",
+		"/home/zhenjun/.config/sublime-text-3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/home/zhenjun/Projects/TodoList/app/views/tasks/backup.html.erb",
+		"/home/zhenjun/Projects/TodoList/app/controllers/concerns/.keep",
+		"/home/zhenjun/Projects/TodoList/app/assets/images/.keep",
+		"/home/zhenjun/Projects/TodoList/config.ru",
 		"/home/zhenjun/Projects/TodoList/README.rdoc",
 		"/home/zhenjun/Projects/TodoList/Gemfile.lock",
-		"/home/zhenjun/Projects/TodoList/Gemfile",
 		"/home/zhenjun/Projects/TodoList/.gitignore",
-		"/home/zhenjun/Projects/TodoList/app/models/task.rb",
-		"/home/zhenjun/Projects/TodoList/app/models/tag.rb",
 		"/home/zhenjun/Projects/TodoList/app/models/.keep",
 		"/home/zhenjun/Projects/TodoList/config/environments/production.rb",
 		"/home/zhenjun/Projects/TodoList/config/environment.rb",
-		"/home/zhenjun/Projects/TodoList/app/views/tasks/index.html.erb",
 		"/home/zhenjun/Projects/TodoList/config/initializers/inflections.rb",
 		"/home/zhenjun/Projects/TodoList/config/initializers/session_store.rb",
 		"/home/zhenjun/Projects/TodoList/config/initializers/assets.rb",
@@ -97,6 +140,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"label",
+			"span",
+			"task",
+			"task_id",
+			"end",
+			";",
+			"each",
+			"input",
+			"age",
 			"environment_name",
 			"name"
 		],
@@ -116,8 +168,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/assets/stylesheets/element.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -168,6 +280,14 @@
 		"selected_items":
 		[
 			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
 				"model",
 				"app/models/task.rb"
 			],
@@ -196,11 +316,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/Projects/rails_postman/simpleman.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

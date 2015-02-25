@@ -4,8 +4,6 @@ class TasksController < ApplicationController
 		# TODO: Rails uuid
 		@task = Task.new( { title: params[:title], uuid: SecureRandom.uuid } ) 
 		if @task.save
-			# debugger
-			# @task
 			render json: { tasks: [@task] }
 		else
 			render json: { op: 'add a new task', save: false }

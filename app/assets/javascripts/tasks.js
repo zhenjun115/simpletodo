@@ -74,7 +74,9 @@ var Todo = function ( conf ) {
 			success: function( data ){
 				_.render( data ) ;
 			},
+			
 			error: function(){
+
 			}
 		} );
 	};
@@ -128,7 +130,8 @@ var Todo = function ( conf ) {
 		} );
 	};
 
-	/*todo tag: checked, working, unfinished ....*/
+	/*todo other tags support, like: checked, working, unfinished ....*/
+	
 	this.mark = function ( ) {
 		/*val1: [ checked, working, unfinished ....]*/
 		var val1 = $( this )[0].checked ? "checked" : "";
